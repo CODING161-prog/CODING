@@ -1,1 +1,18 @@
+//per crea una friceta sotto //
+        .none::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-bottom: 2px solid #000;
+            border-right: 2px solid #000;
+            transform: rotate(45deg);
+            margin-right: 12px;
+            transition: transform 0.2s;
+        }
 
+// per fare dividere la pagene in 2 //
+<body style="display: grid; grid-template-columns: 1fr 3fr;">
+
+//per crea staccio //
+<br><br>
