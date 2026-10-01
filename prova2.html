@@ -1,0 +1,67 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <title>orario scolastico</title>
+</head>
+<style>
+    .bnt{
+        width: 30px;
+        height: auto;
+
+
+    }
+        .none,p {
+            list-style: none;
+            display: flex;
+            align-items: center;
+            font-size: 18px;
+        }
+        /* Crea la freccetta personalizzata a forma di V */
+        .none::before {
+            content: '';
+            display: inline-block;
+            width: 8px;
+            height: 8px;
+            border-bottom: 2px solid #000;
+            border-right: 2px solid #000;
+            transform: rotate(45deg);
+            margin-right: 12px;
+            transition: transform 0.2s;
+        }
+
+</style>
+<body style="display: grid; grid-template-columns: 1fr 3fr;"> 
+    <div>
+        <img src="unnamed.jpg" class="bnt">
+        <h1 style="color: red; width: 10px;">IPSIA"G.Benelli" Pesaro</h1><br><br><br>
+    <div>
+        <p style="font-family: sans-serif;">orario scolastico</p><br><br>
+        <a class="none" style="font-family: sans-serif;">Moduli online</a><br><br>
+        <a class="none" style="font-family: sans-serif;" >Attività annuali di Istituto</a><br><br>
+        <a class="none"style="font-family: sans-serif;">Calendari</a><br><br>
+        <a class="none" style="font-family: sans-serif;">Prenotazione Risorsa</a><br><br>
+        <a class="none" style="font-family: sans-serif;">Reset Password</a><br><br>
+    </div>
+    </div>
+    <div>
+        <h1 style="font-size: 55px; text-align: center;">ORARIO SCOLASTICO</h1>
+   <div style="text-align: center; width: 100%; font-family: sans-serif;">
+
+    <a href="tabella.html" style="background-color: #8A1C14; color: white; display: inline-block; padding: 12px 15px; text-align: center; border-radius: 4px; text-decoration: none; margin-right: 15px;">
+        Orario classi
+    </a>
+
+    <a href="#" style="background-color: #8A1C14; color: white; display: inline-block; padding: 12px 15px; text-align: center; border-radius: 4px; text-decoration: none; margin-right: 15px;">
+        Attività annuali di istituto
+    </a>
+
+    <a href="#" style="background-color: #8A1C14; color: white; display: inline-block; padding: 12px 15px; text-align: center; border-radius: 4px; text-decoration: none;">
+        Orario docenti (Area riservata)
+    </a>
+
+</div>
+
+    </div>
+</body>
+</html>
